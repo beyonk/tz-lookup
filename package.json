@@ -16,11 +16,9 @@
     "time zone"
   ],
   "main": "tz.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/beyonk-adventures/tz-lookup.git"
-  },
+  "repository": "https://github.com/beyonk/tz-lookup.git",
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "packageManager": "pnpm@10.33.0"
 }
