@@ -20,12 +20,15 @@
   "scripts": {
     "test": "mocha"
   },
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.0.0",
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "25.9.0",
+      "version": "24.14.1",
       "onFail": "error"
     }
+  },
+  "engines": {
+    "node": "24.14.1"
   }
 }
