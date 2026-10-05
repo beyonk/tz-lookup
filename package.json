@@ -1,6 +1,6 @@
 {
   "name": "@beyonk/tz-lookup",
-  "version": "6.1.26",
+  "version": "7.0.0",
   "author": {
     "email": "developer@darksky.net",
     "name": "The Dark Sky Company"
@@ -8,8 +8,8 @@
   "description": "fast time zone lookup",
   "devDependencies": {
     "mocha": "*",
-    "uglify-js": "*",
-    "pkg-pr-new": "^0.0.88"
+    "pkg-pr-new": "^0.0.88",
+    "uglify-js": "*"
   },
   "keywords": [
     "tz",
