@@ -8,7 +8,8 @@
   "description": "fast time zone lookup",
   "devDependencies": {
     "mocha": "*",
-    "uglify-js": "*"
+    "uglify-js": "*",
+    "pkg-pr-new": "^0.0.88"
   },
   "keywords": [
     "tz",
@@ -16,11 +17,19 @@
     "time zone"
   ],
   "main": "tz.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/beyonk-adventures/tz-lookup.git"
-  },
+  "repository": "https://github.com/beyonk/tz-lookup.git",
   "scripts": {
     "test": "mocha"
+  },
+  "packageManager": "pnpm@12.9.1",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24",
+      "onFail": "download"
+    }
+  },
+  "engines": {
+    "node": "24"
   }
 }
